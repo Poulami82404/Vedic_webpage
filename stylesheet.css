@@ -1,0 +1,429 @@
+@media only screen and (max-width:300px){
+
+*{
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Css Variables */
+:root{
+    --navbar-height: 59px;
+    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    /* position: sticky; */
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(60, 57, 47);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+  max-height: 15%;
+  max-width: 15%;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font size: 1.3rem;
+    padding : 35px 29px;
+    text-decoration none;
+}
+
+#navbar ul li a{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+   
+    background-color: rgb(133, 162, 221);
+}
+.btn{
+    background-color: rgb(255, 240, 125);
+    color: rgb(6, 6, 6);
+    font-weight: 95px;
+    margin: 15px;
+    padding: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* Home Section */
+#home{
+    font-weight: bold;
+    color:  rgb(255, 240, 125);
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 546px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background:url('../bg_01.jpeg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+/* service cenetr */
+
+
+
+#Books{
+    background:url('bg__02.jpeg') no-repeat center center/cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 125px;
+    margin: 0px;
+    display: flex;
+   
+
+}
+#Books .box{
+    border: 2px solid rgb(233, 113, 8);
+    padding: 38px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: rgb(255, 240, 125);
+    margin-bottom: 20px;
+}
+#Books .box {
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+#Books .box p{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#srvcs-cont h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Books .box h2{
+    color: rgb(12, 12, 11);
+}
+
+
+/* Contact Us   */
+
+#cntact{
+    position: relative;
+    padding: 53px;
+}
+
+#cntact::before{
+    content: "";
+    background: url('bg_03.jpeg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+ #cntct-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+
+ }
+
+ #cntct-box input, #cntct-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+ }
+
+ #cntct-box form{
+   font-weight: 53px;
+   color: rgb(13, 13, 12);
+    width: 40%;
+ }
+
+ #cntct-box label{
+    font-weight: 56px;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #cntact h1{
+    text-align: center;
+
+ }
+
+ footer{
+    font-weight: 53px;
+    padding: 33px 30px;
+ }
+
+/* Utility Cls */
+
+.h-secnd_cntr_{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+}
+}
+@media (min-width:800px){
+
+    *{
+        display: flexbox;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    /* Css Variables */
+    :root{
+        --navbar-height: 59px;
+        
+    }
+    #navbar{
+        display: flex;
+        align-items: center;
+        /* position: sticky; */
+        top: 0px;
+    }
+    #navbar::before{
+        content: "";
+        background-color: rgb(60, 57, 47);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+    
+    }
+    #logo{
+        margin: 10px 34px;
+    }
+    
+    #logo img{
+      max-height: 15%;
+      max-width: 15%;
+    }
+    
+    #navbar ul{
+        display: flex;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    
+    #navbar ul li{
+        list-style: none;
+        font size: 1.3rem;
+        padding : 35px 29px;
+        text-decoration none;
+    }
+    
+    #navbar ul li a{
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    
+    #navbar ul li a:hover{
+       
+        background-color: rgb(133, 162, 221);
+    }
+    .btn{
+        background-color: rgb(255, 240, 125);
+        color: rgb(6, 6, 6);
+        font-weight: 95px;
+        margin: 15px;
+        padding: 2px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    /* Home Section */
+    #home{
+        font-weight: bold;
+        color:  rgb(255, 240, 125);
+        display: flex;
+        flex-direction: column;
+        padding: 3px 200px;
+        height: 546px;
+        justify-content: center;
+        align-items: center;
+    }
+    #home::before{
+        content: "";
+        background:url('../bg_01.jpeg') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    
+    
+    /* service cenetr */
+    
+    
+    
+    #Books{
+        background:url('bg__02.jpeg') no-repeat center center/cover;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        padding: 125px;
+        margin: 0px;
+        display: flex;
+       
+    
+    }
+    #Books .box{
+        border: 2px solid rgb(233, 113, 8);
+        padding: 38px;
+        margin: 2px 23px;
+        border-radius: 28px;
+        background: rgb(255, 240, 125);
+        margin-bottom: 20px;
+    }
+    #Books .box {
+        padding: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    #Books .box p{
+       
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #srvcs-cont h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-weight: 27px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #Books .box h2{
+        color: rgb(12, 12, 11);
+    }
+    
+    
+    /* Contact Us   */
+    
+    #cntact{
+        position: relative;
+        padding: 53px;
+    }
+    
+    #cntact::before{
+        content: "";
+        background: url('bg_03.jpeg') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+    }
+     #cntct-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 14px;
+    
+     }
+    
+     #cntct-box input, #cntct-box textarea{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+     }
+    
+     #cntct-box form{
+       font-weight: 53px;
+       color: rgb(13, 13, 12);
+        width: 40%;
+     }
+    
+     #cntct-box label{
+        font-weight: 56px;
+        font-size: 1.3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     #cntact h1{
+        text-align: center;
+    
+     }
+    
+     footer{
+        font-weight: 53px;
+        padding: 33px 30px;
+     }
+    
+    /* Utility Cls */
+    
+    .h-secnd_cntr_{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2.3rem;
+        padding: 12px;
+    }
+    .center{
+        text-align: center;
+    }
+}
+
+
+
+
+
